@@ -144,4 +144,5 @@ variable "plex_claim" {
   description = <<-DESCRIPTION
   Plex claim to use to connect your server to your account. Get it from https://www.plex.tv/claim/.
   DESCRIPTION
+  sensitive   = true
 }
